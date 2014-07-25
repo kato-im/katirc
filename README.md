@@ -1,7 +1,7 @@
-# IRC Gateway for [Katō](https://kato.im/)
+# IRC Gateway for [Kato](https://kato.im/)
 
-KatIRC is an IRC gateway for Katō. This means that you can use your own IRC
-client. KatIRC will translate IRC commands from your client into Katō API
+KatIRC is an IRC gateway for Kato. This means that you can use your own IRC
+client. KatIRC will translate IRC commands from your client into Kato API
 calls and vice versa.
 
 Note that this is alpha quality software, at best. It was a quick hack
@@ -41,7 +41,7 @@ If installing manually without pip, you will need:
 2. Configure your IRC client.
     - Host: localhost
     - Nick: Any nick you would like
-    - IRC Password: Your Katō username and password, separated by a space.
+    - IRC Password: Your Kato username and password, separated by a space.
 
     Example irssi configuration:
 
@@ -59,19 +59,19 @@ If installing manually without pip, you will need:
 
 3. Start your client.
 
-    Upon successful login, the server will list available Katō rooms and the
+    Upon successful login, the server will list available Kato rooms and the
     associated IRC channel names.
 
-## Notable Differences from the Katō Client
+## Notable Differences from the Kato Client
 
-- In Katō, if someone mentions you in any room, then you get a notification,
+- In Kato, if someone mentions you in any room, then you get a notification,
   even if you are not in the room. With KatIRC, you only get messages for
   channels that you have joined, even if you are mentioned in another room.
 
 ## Mention Support
 
-In Katō, you mention people with @User. In KatIRC, just use the IRC nick, like
-you would in any IRC channel. KatIRC automatically translates between Katō
+In Kato, you mention people with @User. In KatIRC, just use the IRC nick, like
+you would in any IRC channel. KatIRC automatically translates between Kato
 mentions and IRC nicknames, which most clients will treat as a mention.
 
 In order to prevent false matches, such as in URLs, the nickname must be
